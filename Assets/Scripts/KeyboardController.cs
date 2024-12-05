@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 using VirtualKeyboard;
 
 /// <summary>
@@ -10,7 +11,7 @@ using VirtualKeyboard;
 public class KeyboardController : MonoBehaviour
 {
     [SerializeField]
-    private TMP_InputField attachedInputField;
+    private InputField attachedInputField;
 
     private KeyboardLayoutsController keyboardLayoutsController;
     private SoundController soundController;
